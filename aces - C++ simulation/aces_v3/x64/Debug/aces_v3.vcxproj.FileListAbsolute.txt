@@ -1,0 +1,3 @@
+C:\Users\kaari\Documents\College\HE Year 2\Systems\aces_v3\aces_v3\x64\Debug\aces_v3.vcxproj.AssemblyReference.cache
+C:\Users\kaari\Documents\College\HE Year 2\Systems\aces_v3\aces_v3\x64\Debug\aces_v3.Form1.resources
+C:\Users\kaari\Documents\College\HE Year 2\Systems\aces_v3\aces_v3\x64\Debug\aces_v3.vcxproj.GenerateResource.cache

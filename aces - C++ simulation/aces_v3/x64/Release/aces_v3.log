@@ -1,0 +1,20 @@
+﻿  pch.cpp
+  AssemblyInfo.cpp
+  Converters.cpp
+  CppCLR_WinFormsProject.cpp
+C:\Users\kaari\Documents\College\HE Year 2\Systems\aces - C++ simulation\aces_v3\Form1.h(488,27): warning C4101: 'e': unreferenced local variable
+  (compiling source file '/CppCLR_WinFormsProject.cpp')
+  
+C:\Users\kaari\Documents\College\HE Year 2\Systems\aces - C++ simulation\aces_v3\Form1.h(798,29): warning C4101: 'e': unreferenced local variable
+  (compiling source file '/CppCLR_WinFormsProject.cpp')
+  
+  Form1.cpp
+  Generating Code...
+  .NETFramework,Version=v4.7.2.AssemblyAttributes.cpp
+  AssemblyInfo.obj : MSIL module encountered; incremental linking is disabled for MSIL; performing full link
+  aces_v3.vcxproj -> C:\Users\kaari\Documents\College\HE Year 2\Systems\aces - C++ simulation\x64\Release\aces_v3.exe
+  C:\Users\kaari\Documents\libraries\mysql-connector-c++-9.0.0-winx64\lib64\libcrypto-3-x64.dll
+  C:\Users\kaari\Documents\libraries\mysql-connector-c++-9.0.0-winx64\lib64\libssl-3-x64.dll
+  C:\Users\kaari\Documents\libraries\mysql-connector-c++-9.0.0-winx64\lib64\mysqlcppconn-10-vs14.dll
+  C:\Users\kaari\Documents\libraries\mysql-connector-c++-9.0.0-winx64\lib64\mysqlcppconnx-2-vs14.dll
+  4 File(s) copied

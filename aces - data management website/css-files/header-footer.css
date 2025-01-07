@@ -1,0 +1,188 @@
+/*Header Styling*/
+header{
+    /*Fixes the header to the top*/
+    position: fixed;
+    /*Places position of header in top left corner*/
+    top: 0px;
+    left: 0px;
+    /*Vertical alignemnt of header elements*/
+    display: flex;
+    /*Centers each element of the header*/
+    align-items: center;
+    /*Equal spacing around elements*/
+    justify-content: space-between;
+    /*Full length of window*/
+    width: 100%;
+    
+    
+    
+}
+.background-hf{
+    background-image: linear-gradient(rgb(19, 18, 18),#9B2C2C) !important;
+    height:10vh;
+    z-index: 99 !important; 
+    /*sets text colour*/
+    color:aliceblue;
+}
+#title{
+
+    font-weight: bolder; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /*two rows, just under half header height*/
+    font-size: 3vh;
+    font-size: 2vw;
+    
+    
+    text-align: center;
+
+    /*Change to create a suitable glow around title text*/
+    text-shadow: 0 0 2px #a0c9c9,0 0 2px #c92323,0 0 2px #a0c9c9,0 0 2px #c92323;
+}
+#logo{
+    width:auto;
+    height: 10vh;
+}
+#logo-large{
+    width:auto;
+    height: 50vh;
+}
+#menu{
+    /*Moves the menu buttons to center of header*/
+    height:120%;
+}
+#small-menu{
+  display: none;
+}
+/*Styling first set of lis whole blck container*/
+header li{
+
+/*block display places boxes vertiacally after each other and sets the size of the boxes equal, also removes the bullet points*/
+display: block;
+/*poitions the boxes reletive to the parent element*/
+position: relative;
+/*positions the li elements horizontally and sets it to the right*/
+float: right;
+
+}
+/*styling the first ul a href boxes*/
+header ul li a{
+    /*box colour*/
+    background-image: linear-gradient(rgb(99, 21, 32),rgb(10, 11, 10)) ;
+    /*text colour*/
+    color: white;
+    /*text boldness*/
+    font-weight:bold;
+    /*positions lower items in a vertical grid*/
+    display: block;
+    /*places text in center of box*/
+    text-align: center;
+    /*padding left/right the top/bottom*/
+    padding: 3vh 16px;
+    /*removes underlining and other default styling*/
+    text-decoration: none;
+    /*sets main boxes to same width*/
+
+    width:80px !important;
+    font-size: 0.7em;
+    font-size: 0.7em;
+
+}
+    /*Adding hover effect to change the look of the items on hover */
+header ul a:hover{
+    /*Changes li colour only for the item mouse is on.*/
+    background-image:none;
+    background-color: #520d07;
+}
+
+/*Adding hover effect to show sub menu items */
+header ul li:hover > ul,
+ul li ul:hover {
+  /*enables visibility when pointer is hovering over*/ 
+  visibility: visible;
+  /*1 is fully viewable, below will make this transparent*/
+  opacity: 1;
+  /*places the blocks under each other*/
+  display: block;
+} 
+
+/*styling for all uls under the initial ul*/
+header li ul{
+    /*hides the dropdown*/
+    visibility: hidden;
+    /*Allows the drop down to go outside of the normal flow and overlap to the next element*/
+    position: absolute;
+    /*removes the default left padding to align the li element with the parent element*/
+    padding:0px;
+    /*Gives a small spacing between li and ul*/
+    top:101%;
+    /*COULD ADD TRANSITION HERE*/
+    /*Corner curves*/
+    border-radius: 10%;
+}
+
+/*Styling the li elements under sub uls*/
+header ul li ul li {
+    /*Sets all li in sub ul to same width*/
+    width: 100%;
+}
+/*Sets the second drop menu items to the left*/
+header ul li ul li ul{
+    right:101%;
+    top:10%;
+}
+
+/*Footer Styling*/
+
+/*Styling for the footer*/
+footer{
+/*fixed to stay in sight when scrolling*/
+position: fixed;
+/*To allocate two boxes*/
+display: flex;
+/*centers text from top to bottom*/
+align-items: center;
+/*Separates content*/
+justify-content: space-between;
+/*fixes footer to stay in bottom, left and right, for page scrolling*/
+left: 0px;
+bottom: 0px;
+/*Could set width to 100% instead*/
+right: 0px; 
+/*to push content inside container to the right. Padding on the right hand side is controlled by the footer li*/
+padding-left: 10px;
+}
+/*Changes the link text colour*/
+footer a{
+color:aliceblue;
+}
+
+footer ul{
+/*removes default style for bullet points*/
+list-style-type: none;
+}
+
+footer li{
+/*Gives horizontal layout and sets the li to the right*/
+float: right;
+/*padding to the right of each li*/
+padding-right: 15px;
+
+}
+/*Width and height of the social media images*/
+footer ul li img{
+width: 30px;height:30px;
+}
+@media (max-width:1200px){
+#large-menu {
+    display:none; 
+}
+#small-menu{
+    display: block;
+}
+/*To set menu placement for sub menu to show to the left*/
+.sub{
+    top: 0px;
+    right: 110px;
+}  
+
+}

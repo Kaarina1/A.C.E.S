@@ -1,0 +1,4 @@
+﻿  CppCLR_WinFormsProject.cpp
+C:\Users\kaari\Documents\College\HE Year 2\Systems\aces_v3\aces_v3\Form1.h(3,10): error C1083: Cannot open include file: 'mysql_driver.h': No such file or directory
+  (compiling source file '/CppCLR_WinFormsProject.cpp')
+  
