@@ -97,8 +97,7 @@ The prototype system which has been created enables a user to manage data on the
    - Desktop Development with C++  
    - .NET Desktop Development 
    - Windows Application Development
-
-Data Storage and Processing
+   - Data Storage and Processing
 
  1. Open Visual Studio and select continue without code, below all other options under Get Started
 
