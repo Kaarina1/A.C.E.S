@@ -19,6 +19,7 @@ Table of contents:
 	User Interaction
 		Website Data Management
 		Simulation of Card Holder
+  	Credits
 
 Installation and Configuration
 
