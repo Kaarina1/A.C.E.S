@@ -2,7 +2,7 @@
 
 Access Control Entry System
 
-Description:
+## Description:
 
 This project has been developed for a Year 2, Software Development, Higher Education assignment. The following scenario summarises the users and requirements.
 
@@ -10,7 +10,7 @@ A college requires a card access entry system to enable users to swipe a card to
 The prototype system which has been created enables a user to manage data on the card holders and rooms whilst enabling a simulation of accessing a room with a card, generating the correct log details. Three main software applications have been created to interact with each other to meet the requirements; MySQL for data storage, C++/CLI for coding the simulation of the access control and a Website application with PHP, HTML, CSS and SQL for the data management.
 	The following information will enable the installation of relevant software applications to install and run all three aspects.
 
-Table of contents: 
+## Table of contents: 
 
 	Installation and Configuration
 		Database (Wamp64, MySQL)
@@ -21,16 +21,16 @@ Table of contents:
 		Simulation of Card Holder
   	Credits
 
-Installation and Configuration
+## Installation and Configuration
 
    The implementation of the design has been created on a Windows 10 system, for alternative operating systems installation and running instructions may vary, please refer to the given 
    websites support pages.
 
-Files Download
+### Files Download
 
    Download and extract the zip for the repository folders into an easily accessible location on your system.
 
-Database
+### Database
 
  1. Download the Wamp Server 64 bit (X64) 3.3.7 from:
 
@@ -52,7 +52,7 @@ Database
 
  7. Go back to the localhost/phpmyadmin website to check the door_cards database is visible in the left hand menu
 
-Website
+### Website
 
  1. Download Visual Studio Code for Windows 10/11: 
 
@@ -82,7 +82,7 @@ Website
 
  12. Select aces under “Your Virtual Host” (Unless you named the virtual host differently)
 
-Simulation
+### Simulation
 
  1. Go to the extracted repository folder location and copy the “aces - C++ simulation” folder
 
@@ -171,11 +171,11 @@ Data Storage and Processing
    - 741
 
 
-User Interactions
+## User Interactions
 
  For all applications ensure that the Wamp64 server is running.
 
- Data Management Website Application:
+###  Data Management Website Application:
 
  Access the A.C.E.S website. The first page you will come across is a login page. There are two levels of log in, at the higher level there is the manager's account and the lower level is 
  for the general administrator. The Manager can access any account level pages.
@@ -204,7 +204,7 @@ User Interactions
 	
    Edit and delete users and rooms
 
-Simulation System
+### Simulation System
 
  For this simulation it is best to have the A.C.E.S website open to view rooms and users to use information that exists in the database. 
 
@@ -218,7 +218,7 @@ Simulation System
 
  (Please note the Door, Card Reader, Door Lock Labels and buttons for Door Handle and Reset are currently unavailable, an update may be available at a future date)
 
-Credits
+## Credits
 
  Visual Studio Code: 
  https://code.visualstudio.com/download 
